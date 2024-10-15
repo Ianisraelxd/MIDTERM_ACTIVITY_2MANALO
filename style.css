@@ -1,0 +1,67 @@
+/* General body styling */
+body {
+  background-color: rgb(157, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+}
+
+/* Profile image styling */
+.profile-image {
+  border-radius: 50%;
+  margin: 15px 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for links */
+a:hover {
+  background-color: darkviolet;
+  transform: scale(1.05);
+}
